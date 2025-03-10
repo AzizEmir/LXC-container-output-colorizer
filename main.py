@@ -2,6 +2,10 @@ import re
 import subprocess
 import hashlib
 
+
+# TODO: Buraya bir nok ekledim
+
+
 # Get the output of the lxc-ls command
 lxc_ls_output = subprocess.check_output(['lxc-ls', '-f'], text=True)
 
