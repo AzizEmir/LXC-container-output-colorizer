@@ -2,6 +2,9 @@ import re
 import subprocess
 import hashlib
 
+# TODO: Kod tabanı python'dan rust'a geçirilecek
+
+
 # Get the output of the lxc-ls command
 lxc_ls_output = subprocess.check_output(['lxc-ls', '-f'], text=True)
 
